@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_upload_document"
+            android:icon="@drawable/ic_upload"
+            android:title="@string/nav_upload_document" />
+        <item
+            android:id="@+id/nav_view_documents"
+            android:icon="@drawable/ic_documents"
+            android:title="@string/nav_view_documents" />
+        <item
+            android:id="@+id/nav_search_documents"
+            android:icon="@drawable/ic_search"
+            android:title="@string/nav_search_documents" />
+        <item
+            android:id="@+id/nav_monthly_report"
+            android:icon="@drawable/ic_report"
+            android:title="@string/nav_monthly_report" />
+    </group>
+
+    <item android:title="Akun">
+        <menu>
+            <item
+                android:id="@+id/nav_manage_users"
+                android:icon="@drawable/ic_manage_users"
+                android:title="@string/nav_manage_users"
+                android:visible="false" />
+            <item
+                android:id="@+id/nav_account_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/nav_account_settings" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/nav_logout" />
+        </menu>
+    </item>
+
+</menu>
